@@ -8,8 +8,11 @@
 <br>
   <h2> {{survey_instructions}}</h2>
 
-  <a href="questions/0">
-    <button>Click here to start survey</button>
-  </a>
+
+  <form action="/session_setter" method="POST">
+    <button type="submit" value="Submit">Click here to start survey</button>
+  </form>
+    
+ 
   
 {% endblock %}
